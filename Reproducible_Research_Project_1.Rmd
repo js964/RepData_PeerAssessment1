@@ -21,11 +21,6 @@ Using the activity monitoring data as described in the coursera assignment.
 ## Loading the data
 
 ```{r}
-# url <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
-# download.file(url, "mydata.zip")
-# unzip("mydata.zip")
-# monitorData <- read.csv("activity.csv")
-
 monitorData <- read.csv("./activity.csv")
 ```
 
